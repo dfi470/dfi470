@@ -1,0 +1,43 @@
+PS D:\est-github-15aug\docker> docker build -t hello2024-image .
+[+] Building 43.3s (10/10) FINISHED                                                                                      docker:default 
+ => [internal] load build definition from Dockerfile                                                                               0.0s 
+ => => transferring dockerfile: 173B                                                                                               0.0s 
+ => [internal] load .dockerignore                                                                                                  0.0s 
+ => => transferring context: 2B                                                                                                    0.0s 
+ => [internal] load metadata for docker.io/library/python:3.9                                                                      2.0s 
+ => [auth] library/python:pull token for registry-1.docker.io                                                                      0.0s 
+ => [1/4] FROM docker.io/library/python:3.9@sha256:383d072c4b840507f25453c710969aa1e1d13e47731f294a8a8890e53f834bdf               33.6s 
+ => => resolve docker.io/library/python:3.9@sha256:383d072c4b840507f25453c710969aa1e1d13e47731f294a8a8890e53f834bdf                0.0s
+ => => sha256:383d072c4b840507f25453c710969aa1e1d13e47731f294a8a8890e53f834bdf 1.86kB / 1.86kB                                     0.0s
+ => => sha256:e301b6ca47814a93ddd0420cffbe960bc5363a43d3e8644e53d547ffce16a7a5 7.33kB / 7.33kB                                     0.0s
+ => => sha256:2b9b41aaa3c52ab268b47da303015b94ced04a1eb02e58860e58b283404974f4 24.05MB / 24.05MB                                   3.3s
+ => => sha256:49b40be4436eff6fe463f6977159dc727df37cabe65ade75c75c1caa3cb0a234 64.14MB / 64.14MB                                   8.0s
+ => => sha256:530d4ba717be787c0e2d011aa107edac6d721f8c06fe6d44708d4aa5e9bc5ec9 2.01kB / 2.01kB                                     0.0s
+ => => sha256:7bb465c2914923b08ae03b7fc67b92a1ef9b09c4c1eb9d6711b22ee6bbb46a00 49.55MB / 49.55MB                                   6.4s
+ => => sha256:c558fac597f8ecbb7a66712e14912ce1d83b23a92ca8b6ff14eef209ab01aff2 211.12MB / 211.12MB                                17.0s
+ => => sha256:11402150a57e537c64dc69a28bba37f13acdedd50d8788894398a7b774786e7d 6.39MB / 6.39MB                                     7.4s
+ => => extracting sha256:7bb465c2914923b08ae03b7fc67b92a1ef9b09c4c1eb9d6711b22ee6bbb46a00                                          5.8s
+ => => sha256:d662c27d7e5762cd7807a257f6ec30067c714fdd9a9390836991830c0fbbbb47 15.82MB / 15.82MB                                   9.1s
+ => => sha256:26ff257bfcf12b2ad8a2527c7a42179ff6febddddde7064dec546ec0869a4627 242B / 242B                                         8.2s
+ => => sha256:5a8f6c8c0bd20abb177c033e0a9dc88085bb9ae78d41671925372d005c7ca048 2.85MB / 2.85MB                                     8.7s 
+ => => extracting sha256:2b9b41aaa3c52ab268b47da303015b94ced04a1eb02e58860e58b283404974f4                                          1.6s 
+ => => extracting sha256:49b40be4436eff6fe463f6977159dc727df37cabe65ade75c75c1caa3cb0a234                                          5.3s 
+ => => extracting sha256:c558fac597f8ecbb7a66712e14912ce1d83b23a92ca8b6ff14eef209ab01aff2                                         11.7s 
+ => => extracting sha256:11402150a57e537c64dc69a28bba37f13acdedd50d8788894398a7b774786e7d                                          0.5s 
+ => => extracting sha256:d662c27d7e5762cd7807a257f6ec30067c714fdd9a9390836991830c0fbbbb47                                          0.9s 
+ => => extracting sha256:26ff257bfcf12b2ad8a2527c7a42179ff6febddddde7064dec546ec0869a4627                                          0.0s 
+ => => extracting sha256:5a8f6c8c0bd20abb177c033e0a9dc88085bb9ae78d41671925372d005c7ca048                                          0.4s 
+ => [internal] load build context                                                                                                  0.0s 
+ => => transferring context: 226B                                                                                                  0.0s 
+ => [2/4] WORKDIR /app                                                                                                             1.5s 
+ => [3/4] COPY hello.py .                                                                                                          0.1s 
+ => [4/4] RUN pip install flask                                                                                                    5.6s 
+ => exporting to image                                                                                                             0.2s 
+ => => exporting layers                                                                                                            0.2s 
+ => => writing image sha256:10b62d2119d7a23f897b060c70218156a139eadd9f314732f9d5660bcb9183ae                                       0.0s 
+ => => naming to docker.io/library/hello2024-image                                                                                 0.0s 
+
+View build details: docker-desktop://dashboard/build/default/default/r4z3obycwviq90cbmzzzfchgy
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
