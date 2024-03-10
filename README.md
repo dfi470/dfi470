@@ -9,6 +9,11 @@ practices.
 platform in Azure or AWS or GCP.
 ● Give us an endpoint to access your application.
 
+Code to create EKS Cluster in testcase .
+VPC Code in dfi470/terraform 
+Docker image creation steps involved
+
+
 The below activites have been created in AWS and below service are used :
 - AWS Code commit
 - AWS Code pipeline
