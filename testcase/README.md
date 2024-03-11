@@ -21,9 +21,16 @@ The below activites have been created in AWS and below service are used :
 - Fragate
 - AWS Load Balancer controller
 - Ingress
+- VPC
 <img width="827" alt="image" src="https://github.com/dfi470/dfi470/assets/76170365/0c146a8e-e12d-4fd7-bfff-3c858e14e9c2">
 
 
 On Premise :
 
 <img width="757" alt="image" src="https://github.com/dfi470/dfi470/assets/76170365/e32e76d0-d98d-40fe-bdf9-4a7c2737a2b1">
+
+Output:
+<img width="919" alt="image" src="https://github.com/dfi470/dfi470/assets/76170365/48bad711-01c4-4660-891a-70a42b73fad7">
+
+<img width="605" alt="image" src="https://github.com/dfi470/dfi470/assets/76170365/3463cf8e-e93b-4f36-a040-6f2145341b89">
+
