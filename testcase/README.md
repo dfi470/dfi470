@@ -22,6 +22,11 @@ The below activites have been created in AWS and below service are used :
 - AWS Load Balancer controller
 - Ingress
 - VPC
+
+Install app
+
+kubectl apply -f app.yaml
+
 <img width="827" alt="image" src="https://github.com/dfi470/dfi470/assets/76170365/0c146a8e-e12d-4fd7-bfff-3c858e14e9c2">
 
 
